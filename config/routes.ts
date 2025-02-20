@@ -30,12 +30,19 @@
 		component: './TienIch/GioiThieu',
 		hideInMenu: true,
 	},
-	{
+  {
 		path: '/random-user',
 		name: 'RandomUser',
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+
+{
+  path: '/learning-management',
+  name: 'Quản lý học tập',
+  icon: 'ReadOutlined',
+  component: './LearningManagement',
+},
 
 	// DANH MUC HE THONG
 	// {
